@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avisys Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: #333; line-height: 1.6; }
+    header { background: #001F3F; color: white; padding: 60px 20px; text-align: center; }
+    header h1 { font-size: 2.5em; }
+    header p { margin-top: 10px; font-size: 1.2em; }
+
+    nav { background: #003366; padding: 15px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: 600; }
+
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+
+    .section-title { font-size: 2em; margin-bottom: 20px; text-align: center; }
+
+    .services, .industries { display: flex; flex-wrap: wrap; justify-content: space-around; gap: 30px; text-align: center; }
+    .service-box, .industry-box {
+      background: #f9f9f9; padding: 30px; border-radius: 10px; flex: 1 1 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .cta { background: #f4f4f4; text-align: center; padding: 40px 20px; }
+    .cta a {
+      display: inline-block; background: #003366; color: white;
+      padding: 12px 24px; border-radius: 5px; text-decoration: none;
+      font-weight: 600; margin-top: 20px;
+    }
+
+    footer { background: #001F3F; color: white; text-align: center; padding: 30px 20px; }
+
+    @media (max-width: 768px) {
+      .services, .industries { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Avisys Services</h1>
+  <p>Enabling IT Excellence with Innovation & Expertise</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#industries">Industries</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2 class="section-title">Who We Are</h2>
+  <p>
+    Avisys Services is a technology and consulting firm that delivers expert-led IT transformation across industries.
+    With partnerships in Oracle, Salesforce, SAP, and ServiceNow, we bring digital innovation and workforce solutions to enterprise clients across India, MENA, and APAC regions.
+  </p>
+</section>
+
+<section id="services">
+  <h2 class="section-title">Our Services</h2>
+  <div class="services">
+    <div class="service-box">
+      <h3>IT Staff Augmentation</h3>
+      <p>On-demand skilled professionals across cloud, ERP, and CRM domains.</p>
+    </div>
+    <div class="service-box">
+      <h3>Digital Transformation</h3>
+      <p>End-to-end digital strategy, implementation, and change management.</p>
+    </div>
+    <div class="service-box">
+      <h3>Product Implementation</h3>
+      <p>Certified implementation support for Oracle, Salesforce, SAP, and ServiceNow.</p>
+    </div>
+  </div>
+</section>
+
+<section id="industries">
+  <h2 class="section-title">Industries We Serve</h2>
+  <div class="industries">
+    <div class="industry-box">
+      <h3>Telecom</h3>
+      <p>Optimizing operations and customer experience with cloud and CRM solutions.</p>
+    </div>
+    <div class="industry-box">
+      <h3>Enterprise</h3>
+      <p>Enabling agility with scalable infrastructure and smart automation.</p>
+    </div>
+    <div class="industry-box">
+      <h3>Government</h3>
+      <p>Supporting digital governance and public sector efficiency initiatives.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="cta">
+  <h2>Let's Talk</h2>
+  <p>Ready to transform your tech ecosystem? Connect with our team today.</p>
+  <a href="mailto:info@avisysservices.com">Contact Us</a>
+</section>
+
+<footer>
+  &copy; 2025 Avisys Services. All rights reserved.
+</footer>
+
+</body>
+</html>
